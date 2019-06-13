@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "0.0.1",
+  "description": "Curso node.js",
+  "main": "index.js",
+  "dependencies": {
+    "color": "^3.1.2",
+    "express": "^4.17.1",
+    "twilio": "^3.32.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelRamirezAgustin/Curso_Noje.git"
+  },
+  "author": "Miguel R A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelRamirezAgustin/Curso_Noje/issues"
+  },
+  "homepage": "https://github.com/MiguelRamirezAgustin/Curso_Noje#readme"
+}

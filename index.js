@@ -1,25 +1,9 @@
+const operacion= require('./module-Operacion');
 
-function sumar(x1,x2){
-  return x1+x2;
-}
 
-function restar(x1,x2){
-      return x1-x2;
-}
+console.log('Datos suma \n \n', operacion,' \n \n');
 
-function dividir(x1,x2){
-      if(x2==0){
-            console.log('No se puede dividir')
-      }else{
-            return x1/x2;
-      }
-}
-
-function multiplicar(x1,x2){
-      return x1*x2;
-}
-
-console.log('Datos suma', sumar(2,2));
-console.log('Datos suma', restar(2,2));
-console.log('Datos suma', multiplicar(2,2));
-console.log('Datos suma', dividir(10,2));
+ console.log('Datos suma', operacion.sumar(2,2));
+ console.log('Datos suma', operacion.restar(2,2));
+ console.log('Datos suma', operacion.multiplicar(2,2));
+ console.log('Datos suma', operacion.dividir(10,2));
